@@ -77,10 +77,35 @@ npm run dev
 # 9. Start the app
 php artisan serve
 ```
-
-## 🤝 Contributing
+### ⚙️ Configuration
  
-This is currently a personal/portfolio project, but suggestions and issues are welcome — feel free to open an issue or a pull request.
+`.env.example` in the repo currently only has Laravel's default variables — it's missing the Midtrans and Twilio keys the project actually depends on. Copy the block below into your `.env` (and add the same empty keys to `.env.example` so other developers/reviewers know what's required) and fill in your own values:
+ 
+```env
+APP_NAME="Boarding House"
+APP_ENV=local
+APP_KEY=
+APP_DEBUG=true
+APP_URL=http://localhost:8000
+ 
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=boarding_house
+DB_USERNAME=root
+DB_PASSWORD=
+ 
+# Midtrans — get these from https://dashboard.midtrans.com (Sandbox settings)
+MIDTRANS_MERCHANT_ID=
+MIDTRANS_CLIENT_KEY=
+MIDTRANS_SERVER_KEY=
+MIDTRANS_IS_PRODUCTION=false
+ 
+# Twilio — get these from https://console.twilio.com
+TWILIO_SID=
+TWILIO_AUTH_TOKEN=
+TWILIO_WHATSAPP_FROM=whatsapp:+14155238886
+```
 
 ## 📁 Project Structure
  
@@ -96,5 +121,9 @@ tests/          → feature & unit tests
 
 ## 📄 License
  
-This project is open-sourced under the [MIT license](LICENSE).
+This project is open-sourced under the [MIT license].
+
+ ## 🤝 Contributing
  
+This is currently a personal/portfolio project, but suggestions and issues are welcome — feel free to open an issue or a pull request.
+

@@ -8,7 +8,14 @@
 A boarding house (*kos/kontrakan*) management system built with **Laravel 11** and the **Filament 3** admin panel. It helps a boarding house owner manage rooms, tenants, and payments in one dashboard — with **online payments via Midtrans** and **automatic WhatsApp notifications via Twilio**.
  
 ![Dashboard preview](https://github.com/user-attachments/assets/e5262a3d-6c7c-459b-b21f-648e6c65f581)
- 
+
+## 🎥 Demo
+
+[![Watch the demo](https://img.youtube.com/vi/muMtIrKD01Q/maxresdefault.jpg)](https://www.youtube.com/watch?v=muMtIrKD01Q)
+
+
+
+
 ## ✨ Features
  
 - 🛏️ Room / unit management (availability, room type, pricing)

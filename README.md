@@ -11,10 +11,8 @@ A boarding house (*kos/kontrakan*) management system built with **Laravel 11** a
 
 ## 🎥 Demo
 
-[![Watch the demo](https://img.youtube.com/vi/muMtIrKD01Q/maxresdefault.jpg)](https://www.youtube.com/watch?v=muMtIrKD01Q)
-
-
-
+[![Watch the demo](https://github.com/user-attachments/assets/e5262a3d-6c7c-459b-b21f-648e6c65f581)](https://www.youtube.com/watch?v=muMtIrKD01Q)
+▶️ *Click the image to watch the full demo on YouTube.*
 
 ## ✨ Features
  

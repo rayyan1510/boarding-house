@@ -5,7 +5,7 @@
 ![PHP](https://img.shields.io/badge/PHP-8.2-777BB4?style=flat&logo=php&logoColor=white)
 ![License](https://img.shields.io/badge/license-MIT-green)
  
-A boarding house (*kos/kontrakan*) management system built with **Laravel 11** and the **Filament 3** admin panel. It helps a boarding house owner manage rooms, tenants, and payments in one dashboard — with **online payments via Midtrans** and **automatic WhatsApp notifications via Twilio**.
+A boarding house (*kos/kontrakan*) management system built with **Laravel 11** and the **Filament 3** admin panel. It helps a boarding house owner manage rooms, tenants, and payments in one dashboard — with **online payments via Midtrans** and **automatic WhatsApp notifications via Twilio (*There’s a bug issue right now.)**.
  
 ![Dashboard preview](https://github.com/user-attachments/assets/e5262a3d-6c7c-459b-b21f-648e6c65f581)
 
@@ -44,6 +44,7 @@ A boarding house (*kos/kontrakan*) management system built with **Laravel 11** a
 - MySQL (or SQLite for local development)
 - A [Midtrans](https://midtrans.com/) sandbox account (for payment testing)
 - A [Twilio](https://www.twilio.com/) account with WhatsApp sandbox enabled (for notification testing)
+- A [Ngrok]([https://ngrok.com/) (for webhook API)
 ## 🚀 Installation
  
 ```bash
